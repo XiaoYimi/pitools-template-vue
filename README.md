@@ -62,13 +62,13 @@ Module installed:
 
 ### 解决输出命令 'console' 报错问题
 ```
-如果你不希望因为输出代码 'console' 而导致发生错误， 请前往目录 node_modules/eslint/conf 下文件 eslint-recommended.js。在module.export 里的字段 map 函数里添加 "no-console": "off".
+如果你不希望因为输出代码 'console' 而导致发生错误， 请前往文件 pageage.json 中 eslintConfig 字段的属性 rules 添加这一选项  "no-console": "off".
 ```
 
 
 ### Solve the problem of error reporting of output command 'console'
 ```
-If you don't want errors caused by the output code 'console', go to the file eslint-recommended.js under the directory 'node_modules/eslint/conf'. Add "no console": "off" to the field map function in module.export
+If you don't want an error caused by the output code 'console', go to the property rules of the eslintconfig field in the file page.json and add the option "no console": "off"
 ```
 
 ## Project setup
